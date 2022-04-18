@@ -9,3 +9,7 @@
     . ./venv/bin/activate
     pip install -U pip
 ***
+2. Run Server
+***
+    python manage.py runserver
+***
