@@ -3,7 +3,16 @@
 ## Getting started
 --------
 
-1. Create venv, activate it and upgrade pip:
+1. First of all create .env file with such configuration:
+***
+    ENGINE=
+    NAME=
+    USER=
+    PASSWORD=
+    HOST=
+    PORT=
+***
+2. Create venv, activate it and upgrade pip:
 ***
     python3 -m venv venv
     . ./venv/bin/activate
