@@ -1,4 +1,4 @@
-.env*
+core/.env
 
 ### Python template
 # Byte-compiled / optimized / DLL files
