@@ -3,8 +3,10 @@
 ## Getting started
 --------
 
-1. First of all create .env file with such configuration:
+1. First of all create .env file in ecomstore folder and put this with your settings:
 ***
+    SECRET_KEY=
+
     ENGINE=
     NAME=
     USER=
