@@ -3,16 +3,16 @@
 ## Getting started
 --------
 
-1. First of all create .env file in core folder and put this with your settings:
+1. First of all create .env file and put this with your settings:
 ***
     SECRET_KEY=
 
-    ENGINE=
-    NAME=
-    USER=
-    PASSWORD=
-    HOST=
-    PORT=
+    ENGINE_DB=
+    NAME_DB=
+    USER_DB=
+    PASSWORD_DB=
+    HOST_DB=
+    PORT_DB=
 ***
 2. Create venv, activate it and upgrade pip:
 ***
@@ -23,9 +23,13 @@
 ***
 3. Migrate db
 ***
-    python manage.py makemigrations
+    python manage.py migrate
 ***
-4. Run Server
+4. Create admin user
+***
+    python manage.py createsuperuser
+***
+5. Run Server
 ***
     python manage.py runserver
 ***
