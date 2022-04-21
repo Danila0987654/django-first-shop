@@ -13,7 +13,7 @@ SECRET_KEY = env("SECRET_KEY", default="unsafe-secret-key")
 
 DEBUG = env("DEBUG", default="True")
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['yourdomain.com', '127.0.0.1']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -97,6 +97,10 @@ USE_I18N = True
 USE_TZ = True
 
 STATIC_URL = '/static/'
+
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, "static")
+]
 
 
 MEDIA_URL = '/media/'
