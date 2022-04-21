@@ -6,6 +6,7 @@
 1. First of all create .env file and put this with your settings:
 ***
     SECRET_KEY=
+    DEBUG=
 
     ENGINE_DB=
     NAME_DB=
