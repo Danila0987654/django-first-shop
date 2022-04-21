@@ -33,3 +33,7 @@
 ***
     python manage.py runserver
 ***
+Run tests
+***
+    ./manage.py test
+***
